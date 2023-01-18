@@ -72,13 +72,19 @@ Voce irá criar um bot no telegram:
 
 - Caso você queira carregar um vídeo para assistir é só mandar o link do vídeo para o seu Bot, ele irá abrir em uma nova aba já com tudo pronto para você assistir.
 
-- Digite **'Q'** para poder dar zoom no browse e 'P' para diminuir o zoom 
+- Digite **'Q'** para poder dar zoom no browse e **'P'** para diminuir o zoom 
+
+- Digite **'Qq'** para poder dar zoom 2x mais no browse e **'Pp'** para diminuir 2x mais o zoom 
 
 - Digite **'Qq'** para o zoom ser ainda maior e 'Pp' para ser ainda menor
 
 - Digite **'A'** para pressionar a seta esquerda do pc (volta o vídeo em 5 segundos)
 
+- Digite **'Aa'** para pressionar a seta esquerda do pc 2 vezes (volta o vídeo em 10 segundos)
+
 - Digite **'L'** para pressionar a seta direita do pc (adianta o vídeo em 5 segundos)
+
+- Digite **'Ll'** para pressionar a seta direita do pc 2 vezes (adianta o vídeo em 10 segundos)
 
 - Digite **','** para diminuir o som do pc
 
