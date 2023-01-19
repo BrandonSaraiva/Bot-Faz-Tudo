@@ -29,6 +29,8 @@ Voce irá criar um bot no telegram:
 
 - Caso não tenha familiaridade com o pyautogui para fazer essas configurações, veja esse vídeo: **https://youtu.be/MeOUl7ZjJRM**
 
+- Caso queira transformar o bot em 1 executavel simples: https://www.youtube.com/watch?v=cGSerUmK0CE&t=536s
+
 # Comandos:
 
 - Para ativar o bot digite /oi
