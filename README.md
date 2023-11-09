@@ -1,104 +1,104 @@
-# Apresentação
+# Presentation
 
-Bom esse bot eu criei para uso pessoal por isso tem funcionalidades e configurações tão específicas, caso alguem queira usa-lo precisará adaptar bastante para o seu própio pc.
+Well, I created this bot for personal use so it has such specific features and settings, if anyone wants to use it they will need to adapt it a lot to their own PC.
 
-# Instalações:
+# Installations:
 
-Instalações necessárias no python:
+Required Python installations:
 
 **pyautogui** : *py -m pip install pyautogui*
 
 **telebot**   : *python -m pip install --user pyTelegramBotAPI*
 
-# Configurações:
+# Settings:
 
-Voce irá criar um bot no telegram: 
+You will create a bot on Telegram:
 
 ![image](https://user-images.githubusercontent.com/90096835/212699272-24838609-8d93-4730-a549-7ef5b6059902.png)
 
 
-- *Com o TOKEN da API pego irá substituir a CHAVE_API em todos os arquivos pelo o seu*
+- *With the API TOKEN picked up, you will replace the API_KEY in all files with yours*
 
-- *Caso queira utilizar a funcionalidade /tokin terá que ter esse BOT, link do Tokin: https://github.com/BrandonSaraiva/Projeto-bot-telegram-Lotof-cil*
+- *If you want to use the /tokin functionality, you will need to have this BOT, Tokin link: https://github.com/BrandonSaraiva/Projeto-bot-telegram-Lotof-cil*
 
-- **O pyautogui utiliza batante os pixels da tela para se movimentar, por isso falei sobre esse BOT ser bem especifico para meu uso pessoal, meu monitor é 1920 X 1080 (23.5) polegadas, caso seu monitor também seja esse irá funcionar bem.**
+- **Pyautogui uses the pixels of the screen to move, that's why I talked about this BOT being very specific for my personal use, my monitor is 1920 **
 
-- **Você irá ter que configurar algumas funções para o seu pc, por exemplo na função /email ele abre o link através da minha barra de favoritos no OPERA em uma posição especifica do favorito, você terá que mudar a localização do pyautogui.moveTo(). Na funçao /drive ele abre o bot em uma posição especifica dentro da pasta. Lembre-se também de deixar todos os aplicativos maximizados, se algum tiver em um tamanho menor doq full-scream (navegador por exemplo) ele irá clicar em outro local.**
+- **You will have to configure some functions for your PC, for example in the /email function it opens the link through my favorites bar in OPERA in a specific position in the favorite, you will have to change the location of pyautogui.moveTo (). In the /drive function it opens the bot in a specific position within the folder. Also remember to leave all applications maximized, if any are smaller than full-scream (browser for example) they will click in another location.**
 
-- *Meu sistema operacional é o windows 10 pro*
+- *My operating system is windows 10 pro*
 
-- Caso não tenha familiaridade com o pyautogui para fazer essas configurações, veja esse vídeo: **https://youtu.be/MeOUl7ZjJRM**
+- If you are not familiar with pyautogui to make these settings, watch this video: **https://youtu.be/MeOUl7ZjJRM**
 
-- Caso queira transformar o bot em 1 executavel simples: https://www.youtube.com/watch?v=cGSerUmK0CE&t=536s
+- If you want to transform the bot into a simple executable: https://www.youtube.com/watch?v=cGSerUmK0CE&t=536s
 
-# Comandos:
+#Commands:
 
-- Para ativar o bot digite /oi
+- To activate the bot type /oi
 
-/boleto   -  (Para receber o boleto do iesb ) #ainda estou configurando essa parte
+/boleto - (To receive the IESB bill) #I'm still configuring this part
 
-/drive    -  (Para subir algum arquivo do seu desktop para o drive)
+/drive - (To upload a file from your desktop to the drive)
 
-/diario   -  (Comandos para se usar diariamente) {
+/diary - (Commands to use daily) {
 
-    /tokinho  -  (Ative o bot tokinho)
+     /tokinho - (Activate the tokinho bot)
     
-    /email    -  (Ver os ultimos 5 emails na caixa de email)
+     /email - (View the last 5 emails in the email box)
     
-    /teamViewer - (Conectar um pc ao seu)
+     /teamViewer - (Connect a pc to yours)
 
-    /suspender - (Suspender o pc) {
+     /suspend - (Suspend the PC) {
     
-      /tempo  -   Colocar um temporizador para o pc suspender
+       /time - Set a timer for the PC to suspend
     
-      /agora  -   Suspender imediatamente
+       /now - Suspend immediately
       
-      /cancelar -  Irá reiniciar o bot fazendo assim cancelar o shutdown
+       /cancel - Will restart the bot thus canceling the shutdown
       
-    }
+     }
     
-    /clima     - (Previsão de hoje)
+     /weather - (Today's forecast)
 
-    /minimiza  - (Minimiza todas as abas)
+     /minimize - (Minimizes all tabs)
     
 }
 
 
-/discord  -  (Conectar ao discord da empresa)
+/discord - (Connect to company discord)
 
-/limpar   -  (Feche todas as abas no servidor)
+/clear - (Close all tabs on the server)
 
-# Funcionalidades extras
+# Extra features
 
-**Eu também fiz umas funcionalidades para controlar o pc quando estiver vendo video no youtub, pode ser que vc esteja longe do PC  e queira digitar e ontrolar o som por exemplo, então fiz essas funções:**
+**I also made some features to control the PC when watching videos on YouTube, maybe you are far from the PC and want to type and control the sound for example, so I made these functions:**
 
-- Caso você queira carregar um vídeo para assistir é só mandar o link do vídeo para o seu Bot, ele irá abrir em uma nova aba já com tudo pronto para você assistir.
+- If you want to upload a video to watch, just send the video link to your Bot, it will open in a new tab with everything ready for you to watch.
 
-- Digite **'Q'** para poder dar zoom no browse e **'P'** para diminuir o zoom 
+- Type **'Q'** to zoom in and **'P'** to zoom out
 
-- Digite **'Qq'** para poder dar zoom 2x mais no browse e **'Pp'** para diminuir 2x mais o zoom 
+- Type **'Qq'** to zoom in 2x more in the browse and **'Pp'** to zoom out 2x more
 
-- Digite **'Qq'** para o zoom ser ainda maior e 'Pp' para ser ainda menor
+- Type **'Qq'** to zoom in even larger and 'Pp' to zoom in even smaller
 
-- Digite **'A'** para pressionar a seta esquerda do pc (volta o vídeo em 5 segundos)
+- Type **'A'** to press the left arrow on your computer (rewinds the video in 5 seconds)
 
-- Digite **'Aa'** para pressionar a seta esquerda do pc 2 vezes (volta o vídeo em 10 segundos)
+- Type **'Aa'** to press the left arrow on your computer twice (rewinds the video in 10 seconds)
 
-- Digite **'L'** para pressionar a seta direita do pc (adianta o vídeo em 5 segundos)
+- Type **'L'** to press the right arrow on your computer (forwards the video by 5 seconds)
 
-- Digite **'Ll'** para pressionar a seta direita do pc 2 vezes (adianta o vídeo em 10 segundos)
+- Type **'Ll'** to press the right arrow on your computer twice (advances the video by 10 seconds)
 
-- Digite **','** para diminuir o som do pc
+- Type **','** to lower the PC sound
 
-- Digite **'.'** para aumentar o som do pc
+- Type **'.'** to increase PC sound
 
--Digite **'G'** para pressionar a barra de espaço do pc (pausa o vídeo)
+-Type **'G'** to press the PC's space bar (pauses the video)
 
-- Digite **'F'** para sair da tela cheia do vídeo
+- Type **'F'** to exit full screen video
 
-- Use o comando **/escrever** para poder escrever no input que você clicar no seu pc
+- Use the command **/write** to be able to write in the input you click on your PC
 
-# Vídeo mostrando funcionando
+# Video showing it working
 
 
 https://youtu.be/0zUOl3DbXVY
